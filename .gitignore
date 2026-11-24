@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Model Weights & Hugging Face Cache
+model/
+.cache/
+*.bin
+*.pt
+*.safetensors
+*.onnx
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+[project]
+name = "hugging-face-base"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "joeharsonj18@gmail.com", email = "joeharsonj18@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.165.0",
+    "huggingface-hub>=2.4.0",
+    "torch>=2.15.0",
+    "transformers>=5.24.0",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+hugging-face-base = "hugging_face_base:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
