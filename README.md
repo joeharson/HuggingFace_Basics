@@ -60,4 +60,4 @@ docker run -p 8000:8000 -v ${PWD}/model:/app/model hf-base
 
 ## Acknowledgements
 
-Special thanks to AI with Tiru for guidance and collaboration.
+Special thanks to AI with Tiru .
